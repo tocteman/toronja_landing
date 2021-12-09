@@ -1,10 +1,13 @@
 module.exports = {
   future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
   },
-    purge: {enabled: true, content: [
-          './src/**/*.js',
+  purge: {
+    enabled: true, 
+    content: [
+      './pages/**/*.js',
+      './public/**/*.js',
     ]},
   theme: {
     fontFamily: {
@@ -13,19 +16,6 @@ module.exports = {
     }
   },
   extend: {
-    keyframes: {
-      'yellow-to-green': {
-        '0%': {
-          transform: 'background-color: #FDE68A'
-        },
-        '100%': {
-          transform: 'background-color: #D1FAE5'
-        }
-      }
-    },
-    animation: {
-      anibg: 'yellow-to-green 1s ease-in-out infinite'
-    },
     colors: {
       'blue': {
         '100': '#d9f0fc'
