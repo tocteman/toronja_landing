@@ -44,7 +44,7 @@ export default function Home() {
         <img src="/images/toronjaIlustrada.png" className="w-16 h-16 ml-8 md:ml-16"/>
         <div className="font-display text-5xl font-bold pl-8 md:pl-16">toronja</div>
         <div className="leading-normal mt-4 max-w-2xl px-8 md:px-16">
-        La toronja es más amarga que la naranja, pero tiene hasta seis veces más vitamina C. ¿Pero es competencia? No puede ser competencia. <em>Claro</em> que es competencia, es por eso que usted está aquí. {showGreeting()} Un gusto. Soy Juan Francisco, saludos desde Vilcabamba, sur del Ecuador. Me dedico a ensamblar productos digitales. Sobre las toronjas: por favor no nos pasemos el día enumerando nutrientes. Ambos sabemos que lo que importa es el sabor.
+        La toronja es más amarga que la naranja, pero tiene hasta seis veces más vitamina C. ¿Pero es competencia? No puede ser competencia. <em>Claro</em> que es competencia, es por eso que usted está aquí. {showGreeting()} Un gusto. Soy Juan Francisco, saludos desde Cuenca, sur del Ecuador. Me dedico a ensamblar productos digitales. Sobre las toronjas: por favor no nos pasemos el día enumerando nutrientes. Ambos sabemos que lo que importa es el sabor.
         </div>
         <div className="italic mt-4 max-w-2xl px-8 md:px-16 font-bold md:ml-6">Hitos profesionales que me enorgullecen.</div>
         <div className=" leading-normal mt-2">
