@@ -4,7 +4,7 @@ module.exports = {
     // purgeLayersByDefault: true,
   },
     purge: {enabled: true, content: [
-          'src/**/*.js',
+          './src/**/*.js',
     ]},
   theme: {
     fontFamily: {
