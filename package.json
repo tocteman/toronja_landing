@@ -5,8 +5,8 @@
   "scripts": {
     "build:css": "npx tailwindcss build styles/tailwind.css -o styles/styles.css",
     "watch:css": "npx tailwindcss build styles/tailwind.css -o styles/styles.css",
-    "dev": "pnpm watch:css && next dev",
-    "build": "pnpm watch:css && next build",
+    "dev": "npm watch:css && next dev",
+    "build": "npm watch:css && next build",
     "start": "next start"
   },
   "dependencies": {
