@@ -11,6 +11,7 @@ import Airpals from './components/airpals'
 import Dynamic from 'next/dynamic'
 import Sabroso from './components/sabroso'
 import Feriado from './components/feriado'
+import Vrooms from './components/vrooms'
 
  
 export default function Home() {
@@ -127,7 +128,7 @@ export default function Home() {
         <div className=" leading-normal mt-2">
           <div className="flex max-w-2xl pl-8 md:pl-16 pr-12 md:pr-24">
             <div className="mr-2 text-lg">☞</div>
-            <div>También <span onClick={()=> setReveal("airpals")} className="font-bold underline cursor-pointer bg-yellow-100 hover:bg-yellow-200">levantamos una aplicación web para un courier neoyorquino</span>, <span onClick={() => setReveal("feriado")} className="font-bold underline cursor-pointer bg-yellow-100 hover:bg-yellow-200">promocionamos congregaciones postadolescentes</span> 
+            <div>También <span onClick={()=> setReveal("airpals")} className="font-bold underline cursor-pointer bg-yellow-100 hover:bg-yellow-200">levantamos una aplicación web para un courier neoyorquino</span>, <span onClick={() => setReveal("vrooms")} className="font-bold underline cursor-pointer bg-yellow-100 hover:bg-yellow-200">organizamos congregaciones postadolescentes</span> 
               <span onClick={ () => setReveal("sabroso")} className="font-bold underline cursor-pointer bg-yellow-100 hover:bg-yellow-200"> y construimos una plataforma de almuerzos corporativos.
                 </span> 
               &nbsp;En esas estamos.</div>
@@ -137,9 +138,9 @@ export default function Home() {
               <Airpals/>
             </div>
             }
-            {reveal === "feriado" && 
+            {reveal === "vrooms" && 
             <div className="my-4 mr-6">
-              <Feriado/>
+              <Vrooms/>
             </div>
             }
             {reveal === "sabroso" && 
