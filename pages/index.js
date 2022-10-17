@@ -35,7 +35,7 @@ export default function Home() {
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <div className="min-h-screen bg-yellow-100 w-full md:py-8 text-lg font-sans">
-      <div className="py-8 mx-auto max-w-3xl border-white border-2 rounded-lg bg-white">
+      <div className="py-8 mx-auto max-w-3xl border-white border-2 rounded-lg bg-white shadow">
         <div className="flex w-full justify-end pl-16">
           <div></div>
           <div className="-mr-1">
@@ -129,8 +129,6 @@ export default function Home() {
             <div className="mr-2 text-lg">☞</div>
             <div>También <span onClick={()=> setReveal("airpals")} className="font-bold underline cursor-pointer bg-yellow-100 hover:bg-yellow-200">levantamos una aplicación web para un courier neoyorquino</span>, <span onClick={() => setReveal("vrooms")} className="font-bold underline cursor-pointer bg-yellow-100 hover:bg-yellow-200">organizamos congregaciones postadolescentes</span> 
               <span onClick={ () => setReveal("sabroso")} className="font-bold underline cursor-pointer bg-yellow-100 hover:bg-yellow-200">, construimos una plataforma de almuerzos corporativos,</span>&nbsp; 
-
-              <span onClick={ () => setReveal("sabroso")} className="font-bold underline cursor-pointer bg-yellow-100 hover:bg-yellow-200">construimos una plataforma de almuerzos corporativos </span> y&nbsp;
 <span onClick={ () => setReveal("ucuenca")} className="font-bold underline cursor-pointer bg-yellow-100 hover:bg-yellow-200">
                 compilamos un catálogo editorial universitario.
                 </span>
