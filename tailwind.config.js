@@ -11,8 +11,8 @@ module.exports = {
     ]},
   theme: {
     fontFamily: {
-      "sans": ["ff-tisa-web-pro", "sans-serif"],
-      'display': ['ff-tisa-sans-web-pro', 'sans-serif'],
+      "display": ["ff-tisa-web-pro", "sans-serif"],
+      "sans": ["ff-tisa-sans-web-pro", "sans-serif"],
     }
   },
   extend: {
