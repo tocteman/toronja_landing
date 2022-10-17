@@ -561,12 +561,6 @@ video {
   background-color: rgba(255, 255, 240, var(--bg-opacity));
 }
 
-.bg-green-100 {
-  --bg-opacity: 1;
-  background-color: #f0fff4;
-  background-color: rgba(240, 255, 244, var(--bg-opacity));
-}
-
 .hover\:bg-yellow-200:hover {
   --bg-opacity: 1;
   background-color: #fefcbf;
@@ -631,10 +625,6 @@ video {
 
 .font-extrabold {
   font-weight: 800;
-}
-
-.h-16 {
-  height: 4rem;
 }
 
 .text-lg {
@@ -714,10 +704,6 @@ video {
   margin-right: 1.5rem;
 }
 
-.ml-8 {
-  margin-left: 2rem;
-}
-
 .-mr-1 {
   margin-right: -0.25rem;
 }
@@ -775,10 +761,6 @@ video {
 
 .underline {
   text-decoration: underline;
-}
-
-.w-16 {
-  width: 4rem;
 }
 
 .w-48 {
@@ -879,10 +861,6 @@ video {
 
   .md\:ml-6 {
     margin-left: 1.5rem;
-  }
-
-  .md\:ml-16 {
-    margin-left: 4rem;
   }
 
   .md\:py-8 {
