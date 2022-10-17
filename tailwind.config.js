@@ -11,8 +11,8 @@ module.exports = {
     ]},
   theme: {
     fontFamily: {
-      "sans": ["ff-dagny-web-pro", "sans-serif"],
-      'display': ['los-feliz', 'sans-serif'],
+      "sans": ["ff-tisa-web-pro", "sans-serif"],
+      'display': ['ff-tisa-sans-web-pro', 'sans-serif'],
     }
   },
   extend: {

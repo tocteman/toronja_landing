@@ -376,7 +376,7 @@ ul {
  */
 
 html {
-  font-family: ff-dagny-web-pro, sans-serif; /* 1 */
+  font-family: ff-tisa-web-pro, sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -547,7 +547,7 @@ video {
   height: auto;
 }
 
-@import url("https://use.typekit.net/mvx5czn.css");
+@import url("https://use.typekit.net/mdr1rge.css");
 
 .bg-white {
   --bg-opacity: 1;
@@ -618,15 +618,19 @@ video {
 }
 
 .font-sans {
-  font-family: ff-dagny-web-pro, sans-serif;
+  font-family: ff-tisa-web-pro, sans-serif;
 }
 
 .font-display {
-  font-family: los-feliz, sans-serif;
+  font-family: ff-tisa-sans-web-pro, sans-serif;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .h-16 {
