@@ -376,7 +376,7 @@ ul {
  */
 
 html {
-  font-family: ff-tisa-sans-web-pro, sans-serif; /* 1 */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -547,8 +547,6 @@ video {
   height: auto;
 }
 
-@import url("https://use.typekit.net/mdr1rge.css");
-
 .bg-white {
   --bg-opacity: 1;
   background-color: #fff;
@@ -611,32 +609,25 @@ video {
   justify-content: center;
 }
 
-.font-display {
-  font-family: ff-tisa-web-pro, sans-serif;
-}
-
-.font-sans {
-  font-family: ff-tisa-sans-web-pro, sans-serif;
+.font-serif {
+  font-family: Faustina, serif;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
 .text-lg {
   font-size: 1.125rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-}
-
 .leading-normal {
   line-height: 1.5;
+}
+
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .my-2 {
@@ -841,7 +832,59 @@ video {
   }
 }
 
+@font-face{
+  font-family: 'Faustina';
+
+  font-weight: normal;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  src: url('/Faustina-Regular.woff2') format('woff2');
+}
+
+@font-face{
+  font-family: 'Faustina';
+
+  font-weight: normal;
+
+  font-style: italic;
+
+  font-stretch: normal;
+
+  src: url('/Faustina-Italic.woff2') format('woff2');
+}
+
+@font-face{
+  font-family: 'Faustina';
+
+  font-weight: bold;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  src: url('/Faustina-Semibold.woff2') format('woff2');
+}
+
+@font-face{
+  font-family: 'Faustina';
+
+  font-weight: bold;
+
+  font-style: italic;
+
+  font-stretch: normal;
+
+  src: url('/Faustina-SemiboldItalic.woff2') format('woff2');
+}
+
 @media (min-width: 640px) {
+  .sm\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
 
 @media (min-width: 768px) {

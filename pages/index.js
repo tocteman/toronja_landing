@@ -34,7 +34,7 @@ export default function Home() {
     <title>Toronja</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <div className="min-h-screen bg-yellow-100 w-full md:py-8 text-lg font-sans">
+    <div className="min-h-screen bg-yellow-100 w-full md:py-8 text-lg font-serif">
       <div className="py-8 mx-auto max-w-3xl border-white border-2 rounded-lg bg-white shadow">
         <div className="flex w-full justify-end pl-16">
           <div></div>
@@ -42,8 +42,10 @@ export default function Home() {
             <img src="/images/hojasIlustradas.png" alt=""/>
           </div>
         </div>
-        <div className="font-display text-5xl italic font-extrabold pl-8 md:pl-16">toronja</div>
-        <div className="leading-normal mt-4 max-w-2xl px-8 md:px-16">
+          <div className="w-48 mx-0 sm:mx-8">
+            <img src="/images/toronja_logo.png" alt="" className="max-w-48"/>
+          </div>
+        <div className="leading-normal max-w-2xl px-8 md:px-16">
         La toronja es más amarga que la naranja, pero tiene hasta seis veces más vitamina C. ¿Pero es competencia? No puede ser competencia. <em>Claro</em> que es competencia, es por eso que usted está aquí. {showGreeting()} Un gusto. Soy Juan Francisco, saludos desde Cuenca, sur del Ecuador. Me dedico a ensamblar productos digitales. Sobre las toronjas: por favor no nos pasemos el día enumerando nutrientes. Ambos sabemos que lo que importa es el sabor.
         </div>
         <div className="italic mt-4 max-w-2xl px-8 md:px-16 font-bold md:ml-6">Hitos profesionales que me enorgullecen.</div>
