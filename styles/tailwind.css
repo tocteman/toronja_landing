@@ -22,12 +22,12 @@
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
-    src: url('/Faustina-Semibold.woff2') format('woff2');
+    src: url('/Faustina-SemiBold.woff2') format('woff2');
 }
 @font-face{
     font-family: 'Faustina';
     font-weight: bold;
     font-style: italic;
     font-stretch: normal;
-    src: url('/Faustina-SemiboldItalic.woff2') format('woff2');
+    src: url('/Faustina-SemiBoldItalic.woff2') format('woff2');
 }
