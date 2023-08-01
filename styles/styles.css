@@ -833,7 +833,7 @@ video {
 }
 
 @font-face{
-  font-family: 'Faustina';
+  font-family: 'Junicode';
 
   font-weight: normal;
 
@@ -841,11 +841,11 @@ video {
 
   font-stretch: normal;
 
-  src: url('/Faustina-Regular.woff2') format('woff2');
+  src: url('/Junicode.woff2') format('woff2');
 }
 
 @font-face{
-  font-family: 'Faustina';
+  font-family: 'Junicode';
 
   font-weight: normal;
 
@@ -853,11 +853,11 @@ video {
 
   font-stretch: normal;
 
-  src: url('/Faustina-Italic.woff2') format('woff2');
+  src: url('/Junicode-Italic.woff2') format('woff2');
 }
 
 @font-face{
-  font-family: 'Faustina';
+  font-family: 'Junicode';
 
   font-weight: bold;
 
@@ -865,11 +865,11 @@ video {
 
   font-stretch: normal;
 
-  src: url('/Faustina-Semibold.woff2') format('woff2');
+  src: url('/Junicode-Bold.woff2') format('woff2');
 }
 
 @font-face{
-  font-family: 'Faustina';
+  font-family: 'Junicode';
 
   font-weight: bold;
 
@@ -877,7 +877,7 @@ video {
 
   font-stretch: normal;
 
-  src: url('/Faustina-SemiboldItalic.woff2') format('woff2');
+  src: url('/Junicode-BoldItalic.woff2') format('woff2');
 }
 
 @media (min-width: 640px) {
