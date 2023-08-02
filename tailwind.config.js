@@ -11,7 +11,7 @@ module.exports = {
     ]},
   theme: {
     fontFamily: {
-      "serif": [ "Faustina", "serif"],
+      "serif": [ "Junicode", "serif"],
     }
   },
   extend: {
