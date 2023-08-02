@@ -617,12 +617,12 @@ video {
   font-weight: 700;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
 }
 
-.leading-normal {
-  line-height: 1.5;
+.leading-snug {
+  line-height: 1.375;
 }
 
 .mx-0 {
